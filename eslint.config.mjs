@@ -1,12 +1,12 @@
 import globals from "globals";
 import pluginJs from "@eslint/js";
-import tseslint from "typescript-eslint";
 import tsParser from "@typescript-eslint/parser"
+import tseslint from "typescript-eslint";
 
 /** @type {import('eslint').Linter.Config[]} */
 export default tseslint.config(
-  pluginJs.configs.recommended,
-  tseslint.configs.recommended,
+  pluginJs.configs.all,
+  tseslint.configs.all,
   {
     languageOptions: {
       globals: {
