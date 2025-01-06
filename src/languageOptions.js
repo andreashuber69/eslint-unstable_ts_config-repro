@@ -8,7 +8,7 @@ export const languageOptions = {
   parser: tsParser,
   parserOptions: {
     projectService: {
-      allowDefaultProject: ["eslint.config.mjs"]
+      allowDefaultProject: ["eslint.config.js"]
     },
     tsconfigRootDir: process.cwd(),
   },
