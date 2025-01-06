@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "@tsconfig/strictest/tsconfig",
+    "@tsconfig/node-lts/tsconfig"
+  ],
+  "compilerOptions": {
+    "noEmit": true
+  },
+  "include": [
+    "src/**/*.ts"
+  ]
+}
