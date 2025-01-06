@@ -10,7 +10,6 @@ export default tseslint.config(
   {
     languageOptions,
     plugins: {
-      // eslint-disable-next-line @typescript-eslint/no-unsafe-argument
       import: fixupPluginRules(importPlugin),
     },
   },
