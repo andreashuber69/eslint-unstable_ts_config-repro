@@ -1,0 +1,1 @@
+# eslint-unstable_ts_config-repro
