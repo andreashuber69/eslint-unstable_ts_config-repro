@@ -16,12 +16,13 @@ export default tseslint.config(
       parser: tsParser,
       parserOptions: {
         projectService: {
-          allowDefaultProject: ["eslint.config.js"]
+          allowDefaultProject: ["eslint.config.ts"]
         },
         tsconfigRootDir: process.cwd(),
       },
     },
     plugins: {
+      // eslint-disable-next-line @typescript-eslint/no-unsafe-argument
       import: fixupPluginRules(importPlugin),
     },
   },
