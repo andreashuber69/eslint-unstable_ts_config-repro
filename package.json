@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "tsx src/index.ts",
-    "lint": "eslint"
+    "lint": "eslint --flag unstable_ts_config"
   },
   "license": "Unlicense",
   "devDependencies": {
@@ -16,6 +16,7 @@
     "@typescript-eslint/parser": "^8.19.0",
     "eslint": "^9.17.0",
     "globals": "^15.14.0",
+    "jiti": "^2.4.2",
     "tsx": "^4.19.2",
     "typescript-eslint": "^8.19.0"
   }
